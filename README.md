@@ -11,13 +11,14 @@ The software is developed under unity 2021.3.0f1. To achieve better quality, URP
 - [ ] Multiplayer (Local host, Remote host)
 - [ ] Export Avatar from Unity
 - [ ] Export Room from Unity
+- [ ] Room customization interface
 
 #### Advanced Function
 - [ ] Spatial audio
 - [ ] Import FBX model
 - [ ] Import VRM model
 - [ ] Import room from 3D software
-- [ ] Room customization interface and VR Edit/Save
+- [ ] VR Edit/Save
 
 ## Currently Supported OS
 iOS/iPadOS
