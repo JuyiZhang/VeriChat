@@ -1,6 +1,8 @@
 # ![](Resources/VChatLogo-01.png) 极聊
 极聊是一个开源的3D聊天室软件. 本软件终身免费，不含反作弊系统（说的就是你VRChat）<br />
-[English Version of Readme Here](README.md)
+[English Version of Readme Here](README.md).  
+
+该文档仅为辅助作用，所有文档请以英文版文档为准
 ## 介绍
 极聊致力于提供一个人与人之间能够交流的3D虚拟世界（我可不想用元宇宙这个词，实在是太令人作呕了）, 在这个地方，你能自己定义世界，以及自己的化身，你有着无限的可能（所以说大概就是一个VRChat）<br />
 与VRChat不同，本软件完全开源，并且永远不会添加反作弊系统 （讲真，在开放世界里面真的会有挂吗？我认为在这个开放世界，只会有mod）<br />
