@@ -22,11 +22,11 @@
 - [ ] 从3D软件导出房间<br />
 
 ## 当前支持的操作系统
-iOS/iPadOS
-安卓（含鸿蒙）
-Oculus
-macOS
-Windows (Including Hololens)
-Linux
+- iOS/iPadOS
+- 安卓（含鸿蒙）
+- Oculus
+- macOS
+- Windows (Including Hololens)
+- Linux
 
 
