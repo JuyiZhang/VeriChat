@@ -1,5 +1,6 @@
 # ![](Resources/VChatLogo-01.png) VeriChat
 An open-source cross-platform 3D chatroom. No fee, no anti-cheat, no worries.<br />
+Current version: 0.0.1 Alpha <br />
 [中文版说明](README-CN.md)
 ## Introduction
 VeriChat aims to provide a 3D chatroom where people can meet using their digital avatar, and the rooms and the avatars can be fully customized by any user. (So in short, it is pretty similar to VRChat)<br />
