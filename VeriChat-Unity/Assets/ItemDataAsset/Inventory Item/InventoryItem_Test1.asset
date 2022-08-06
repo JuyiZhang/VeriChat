@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 673f5435ac0e14e268a6cfac5dd81062, type: 3}
+  m_Name: InventoryItem_Test1
+  m_EditorClassIdentifier: 
+  id: Inventory_Item_Test2
+  displayName: TestItem
+  icon: {fileID: 21300000, guid: 6a4891a1ec505d64e97d82bb5a3b9c04, type: 3}
+  prefab: {fileID: 156656, guid: bddb1706eb9e38c4c8aad9e975af8fba, type: 3}
+  interactions:
+  - {fileID: 11400000, guid: 6f5c5d3e19aa64b3aa29fd7505644cdf, type: 2}
+  - {fileID: 11400000, guid: bda6a58131dcc4b40bb57bac9d286b1c, type: 2}
