@@ -11,6 +11,15 @@
 /[Mm]emoryCaptures/
 /VeriChat-Unity/Assets/Models
 /VeriChat-Unity/Assets/StarterAssets
+/VeriChat-Unity/Assets/GeneratedScene
+/VeriChat-Unity/Library
+/VeriChat-Unity/Temp
+/VeriChat-Unity/Obj
+/VeriChat-Unity/Build
+/VeriChat-Unity/Builds
+/VeriChat-Unity/Logs
+/VeriChat-Unity/MemoryCaptures
+/VeriChat-Unity/StreamingAssets
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta

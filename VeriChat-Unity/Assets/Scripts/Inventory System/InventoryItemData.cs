@@ -6,11 +6,13 @@ using UnityEngine;
 public class InventoryItemData : ScriptableObject
 {
     public enum styleType {
+      Unspecified,
       Anime,
       Realistic,
       Lowpoly
     };
     public enum itemType {
+      Unspecified,
       Furniture,
       Appliances,
       SmallObject,
@@ -20,10 +22,10 @@ public class InventoryItemData : ScriptableObject
       Toy,
       Floor,
       Wall,
-      Ceiling,
-
+      Ceiling
     };
     public enum sceneType {
+      Unspecified,
       Bedroom,
       Bathroom,
       Kitchen,
@@ -40,7 +42,7 @@ public class InventoryItemData : ScriptableObject
     public styleType style = styleType.Anime;
     public itemType type = itemType.Furniture;
     public sceneType scene = sceneType.Bedroom;
-    public Sprite icon;
-    public GameObject prefab;
+    public string icon;
+    public string prefab;
     public GameObjectInteraction[] interactions;
 }
