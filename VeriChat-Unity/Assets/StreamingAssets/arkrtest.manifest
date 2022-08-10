@@ -1,0 +1,289 @@
+ManifestFileVersion: 0
+CRC: 790360002
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e4600aac498573acd564e5ec954e7029
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4622aabbdb45db89098f2f0b0b3ee428
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 86
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d12cb4c95e17f412892a77d779c057d7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0fe9515654a8d49e892b539ec426af27, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 673f5435ac0e14e268a6cfac5dd81062, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e07fd79cdbf184486836d714c74acc44, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f33559fa1cab64fde92b7c3551f21eb5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+- Class: 215
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GeneratedScene/Test/sceneHierarchy/decorative_plant_desk/decorative_plant_desk.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/big_screen/big_screen.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Room_Big_Part_02_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Door_Left_01/Door_Left_01.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Battery/Battery.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/computer_station/computer_station.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (7)/light_wall_3 (7).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Shelf with Crates/Shelf with Crates.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Room_Big_Part_01 (1)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Battery/Battery.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Door_Left_01_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Corridor_02/Corridor_02.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/P_Floor_Normal_02 (9)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/bunk_bed/bunk_bed.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (3)/light_wall_3 (3).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Reflection Probe/Reflection Probe.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (2)/light_wall_3 (2).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_01 (1)/Room_Big_Part_01
+  (1).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_02/Room_Big_Part_02.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/pilot_seat/pilot_seat.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/table_2/table_2.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_01 (1)/Room_Big_Part_01
+  (1).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_02 (2)/Room_Big_Part_02
+  (2).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Corridor_02/Corridor_02.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Battery_medium/Battery_medium.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/P_Floor_Normal_02 (3)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/art_4/art_4.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (5)/light_wall_3 (5).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/bulletin_board_small/bulletin_board_small.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/P_Floor_Normal_02 (1)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_celing_2 (1)/light_celing_2 (1).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/light_wall_3 (6)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/light_wall_3 (7)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (2)/light_wall_3 (2).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Room_Big_Part_02 (1)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Floor_Normal_02_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Corridor_01 (1)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Cube/Cube.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Corridor_01 (1)/Corridor_01 (1).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/computer_station_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/console_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Battery_medium_05/Battery_medium_05.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/projector/projector.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (1)/light_wall_3 (1).asset
+- Assets/GeneratedScene/Test/ArkrTest_def.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Crate01/Crate01.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_01/Room_Big_Part_01.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/art_5_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02/P_Floor_Normal_02.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Corridor_02_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/art_2/art_2.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/art_4/art_4.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (1)/P_Floor_Normal_02
+  (1).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/light_wall_3 (3)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Floor_Normal_02/Floor_Normal_02.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/decorative_sofa/decorative_sofa.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (1)/light_wall_3 (1).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/decorative_plant_desk (1)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Battery_medium (1)/Battery_medium (1).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/console/console.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/desk_no_computer_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/art_5/art_5.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_celing_2 (2)/light_celing_2 (2).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (4)/light_wall_3 (4).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/light_celing_2 (2)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/art_6/art_6.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3/light_wall_3.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/light_celing_2 (2)/light_celing_2 (2).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Corridor_01 (1)/Corridor_01 (1).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Corridor_02 (1)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/light_wall_3 (5)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/P_Floor_Normal_02 (5)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/art_3 1/art_3 1.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/light_celing_2 (1)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Door_Left_01/Door_Left_01.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Crate01/Crate01.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_02 (3)/Room_Big_Part_02
+  (3).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/art_6/art_6.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/console_screen (1)/console_screen (1).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/decorative_plant_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (7)/light_wall_3 (7).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (3)/P_Floor_Normal_02
+  (3).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (5)/light_wall_3 (5).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/decorative_plant_desk_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/bunk_bed/bunk_bed.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (6)/light_wall_3 (6).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/pilot_seat_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Battery_medium/Battery_medium.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/decorative_plant/decorative_plant.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/decorative_plant_desk (1)/decorative_plant_desk
+  (1).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/big_screen/big_screen.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Room_Big_Part_01_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/P_Floor_Normal_02 (4)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/desk_no_computer/desk_no_computer.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/computer_station/computer_station.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/console_screen (1)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/light_wall_3 (1)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Room_Big_Part_02 (4)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/art_5/art_5.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_02 (3)/Room_Big_Part_02
+  (3).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Battery_small_06/Battery_small_06.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/light_celing_2 (3)/light_celing_2 (3).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Battery_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Battery_medium (1)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_02/Room_Big_Part_02.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Door_Left_01 (1)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Corridor_02 (1)/Corridor_02 (1).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/console_screen (1)/console_screen (1).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/table_2/table_2.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/art_2_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/decorative_sofa_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/light_wall_3 (2)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/light_celing_2 (3)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Shelf with Crates_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Shelf with Crates (1)/Shelf with Crates
+  (1).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_02 (1)/Room_Big_Part_02
+  (1).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/vending_machine/vending_machine.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Battery_medium_05/Battery_medium_05.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Reflection Probe_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Crate01_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_01/Room_Big_Part_01.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/desk_no_computer/desk_no_computer.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (4)/light_wall_3 (4).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/vending_machine_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/bunk_bed_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/console/console.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/light_celing_2_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/decorative_plant/decorative_plant.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Door_Left_01 (1)/Door_Left_01 (1).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_celing_2/light_celing_2.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (4)/P_Floor_Normal_02
+  (4).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (1)/P_Floor_Normal_02
+  (1).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Battery_medium_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/table_2_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Room_Big_Part_02 (2)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Battery_small_06/Battery_small_06.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Battery_small_06_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/decorative_plant_desk (1)/decorative_plant_desk
+  (1).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (6)/light_wall_3 (6).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Corridor_01_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Corridor_02 (1)/Corridor_02 (1).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/projector_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_02 (1)/Room_Big_Part_02
+  (1).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/pilot_seat/pilot_seat.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Shelf with Crates (1)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3 (3)/light_wall_3 (3).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Reflection Probe/Reflection Probe.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Battery_medium (1)/Battery_medium (1).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Cube/Cube.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (4)/P_Floor_Normal_02
+  (4).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (8)/P_Floor_Normal_02
+  (8).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/P_Floor_Normal_02 (8)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_02 (2)/Room_Big_Part_02
+  (2).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Shelf with Crates (1)/Shelf with Crates
+  (1).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (2)/P_Floor_Normal_02
+  (2).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_wall_3/light_wall_3.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Shelf with Crates/Shelf with Crates.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02/P_Floor_Normal_02.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Battery_medium_05_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_celing_2 (3)/light_celing_2 (3).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_02 (4)/Room_Big_Part_02
+  (4).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Corridor_01/Corridor_01.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/decorative_plant_desk/decorative_plant_desk.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Door_Left_01 (1)/Door_Left_01 (1).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (3)/P_Floor_Normal_02
+  (3).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_celing_2/light_celing_2.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/art_4_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/decorative_sofa/decorative_sofa.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Room_Big_Part_02 (4)/Room_Big_Part_02
+  (4).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/art_6_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/bulletin_board_small_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Cube_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/vending_machine/vending_machine.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (9)/P_Floor_Normal_02
+  (9).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/P_Floor_Normal_02 (2)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/P_Floor_Normal_02_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/light_wall_3 (4)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (9)/P_Floor_Normal_02
+  (9).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/projector/projector.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/big_screen_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (5)/P_Floor_Normal_02
+  (5).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/art_2/art_2.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Floor_Normal_02/Floor_Normal_02.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (5)/P_Floor_Normal_02
+  (5).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_celing_2 (1)/light_celing_2 (1).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (8)/P_Floor_Normal_02
+  (8).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/P_Floor_Normal_02 (2)/P_Floor_Normal_02
+  (2).prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/Room_Big_Part_02 (3)_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Items/light_wall_3_item.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Corridor_01/Corridor_01.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/bulletin_board_small/bulletin_board_small.prefab
+Dependencies: []

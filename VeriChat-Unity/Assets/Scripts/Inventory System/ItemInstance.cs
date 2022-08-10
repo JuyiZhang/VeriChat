@@ -6,6 +6,7 @@ using UnityEngine;
 public class ItemInstance : ScriptableObject
 {
     public string item;
+    public string fromBundle;
     public Vector3 position;
     public Quaternion rotation;
 }

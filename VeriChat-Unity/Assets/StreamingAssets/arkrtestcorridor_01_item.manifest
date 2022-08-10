@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 983459999
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eebb409d86c224e4ce5ad2d5e7f89297
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d9befa36aa412933dfb099f7f98313a5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 673f5435ac0e14e268a6cfac5dd81062, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GeneratedScene/Test/sceneHierarchy/Corridor_01/Corridor_01.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Corridor_01/Corridor_01.prefab
+Dependencies: []

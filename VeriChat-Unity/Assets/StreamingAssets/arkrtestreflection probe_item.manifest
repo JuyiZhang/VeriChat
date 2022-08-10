@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3684374957
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3c755c04d0553b7b912aa9dbe2c4ade9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d206a6b51fb253a65b46b9e342aa0920
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 673f5435ac0e14e268a6cfac5dd81062, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 215
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GeneratedScene/Test/sceneHierarchy/Reflection Probe/Reflection Probe.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Reflection Probe/Reflection Probe.prefab
+Dependencies: []

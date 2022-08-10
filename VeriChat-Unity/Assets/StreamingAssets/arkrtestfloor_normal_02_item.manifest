@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 3319552373
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9aa2067560d2262265ae0e9df806c99e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e12489c9e1bb63f5efdc51083072fec9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 86
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 673f5435ac0e14e268a6cfac5dd81062, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GeneratedScene/Test/sceneHierarchy/Floor_Normal_02/Floor_Normal_02.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Floor_Normal_02/Floor_Normal_02.prefab
+Dependencies: []

@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 1980375387
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 384e80e9a195d44ad9048fa891b1b141
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8411a71d2d9a6677d06634ab208a4b0d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 86
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 673f5435ac0e14e268a6cfac5dd81062, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GeneratedScene/Test/sceneHierarchy/Cube/Cube.asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Cube/Cube.prefab
+Dependencies: []

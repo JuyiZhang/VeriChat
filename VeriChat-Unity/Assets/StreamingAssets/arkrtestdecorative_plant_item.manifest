@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 1092590764
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b0ac4d835d1c51b761eedbd6d6925a1a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 328e327707b5bdd4fdab5f961dcb3f71
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 673f5435ac0e14e268a6cfac5dd81062, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GeneratedScene/Test/sceneHierarchy/decorative_plant/decorative_plant.prefab
+- Assets/GeneratedScene/Test/sceneHierarchy/decorative_plant/decorative_plant.asset
+Dependencies: []

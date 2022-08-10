@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 1187787893
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2e7dbe17eed1e22010582d0d14f7bb4e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 87ab7a2c98bf4d7612d389ba5e93fd51
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 673f5435ac0e14e268a6cfac5dd81062, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GeneratedScene/Test/sceneHierarchy/light_celing_2 (3)/light_celing_2 (3).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/light_celing_2 (3)/light_celing_2 (3).prefab
+Dependencies: []

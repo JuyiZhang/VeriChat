@@ -1,0 +1,199 @@
+ManifestFileVersion: 0
+CRC: 1207712247
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: arkrtest
+      Dependencies: {}
+    Info_1:
+      Name: arkrtestcomputer_station_item
+      Dependencies: {}
+    Info_2:
+      Name: arkrtestconsole_item
+      Dependencies: {}
+    Info_3:
+      Name: arkrtestdecorative_plant_desk_item
+      Dependencies: {}
+    Info_4:
+      Name: arkrtestdecorative_plant_item
+      Dependencies: {}
+    Info_5:
+      Name: arkrtestbulletin_board_small_item
+      Dependencies: {}
+    Info_6:
+      Name: arkrtestbig_screen_item
+      Dependencies: {}
+    Info_7:
+      Name: arkrtestdecorative_sofa_item
+      Dependencies: {}
+    Info_8:
+      Name: arkrtestart_4_item
+      Dependencies: {}
+    Info_9:
+      Name: arkrtestart_5_item
+      Dependencies: {}
+    Info_10:
+      Name: arkrtestart_6_item
+      Dependencies: {}
+    Info_11:
+      Name: arkrtestart_2_item
+      Dependencies: {}
+    Info_12:
+      Name: arkrtestbunk_bed_item
+      Dependencies: {}
+    Info_13:
+      Name: arkrtestpilot_seat_item
+      Dependencies: {}
+    Info_14:
+      Name: arkrtestdesk_no_computer_item
+      Dependencies: {}
+    Info_15:
+      Name: arkrtesttable_2_item
+      Dependencies: {}
+    Info_16:
+      Name: arkrtestbattery_item
+      Dependencies: {}
+    Info_17:
+      Name: arkrtestbattery_medium_item
+      Dependencies: {}
+    Info_18:
+      Name: arkrtestvending_machine_item
+      Dependencies: {}
+    Info_19:
+      Name: arkrtestprojector_item
+      Dependencies: {}
+    Info_20:
+      Name: arkrtestshelf with crates_item
+      Dependencies: {}
+    Info_21:
+      Name: arkrtestcrate01_item
+      Dependencies: {}
+    Info_22:
+      Name: arkrtestbattery_small_06_item
+      Dependencies: {}
+    Info_23:
+      Name: arkrtestbattery_medium_05_item
+      Dependencies: {}
+    Info_24:
+      Name: arkrtestshelf with crates (1)_item
+      Dependencies: {}
+    Info_25:
+      Name: arkrtestbattery_medium (1)_item
+      Dependencies: {}
+    Info_26:
+      Name: arkrtestconsole_screen (1)_item
+      Dependencies: {}
+    Info_27:
+      Name: arkrtestdecorative_plant_desk (1)_item
+      Dependencies: {}
+    Info_28:
+      Name: arkrtestdoor_left_01_item
+      Dependencies: {}
+    Info_29:
+      Name: arkrtestdoor_left_01 (1)_item
+      Dependencies: {}
+    Info_30:
+      Name: arkrtestroom_big_part_02_item
+      Dependencies: {}
+    Info_31:
+      Name: arkrtestroom_big_part_01_item
+      Dependencies: {}
+    Info_32:
+      Name: arkrtestroom_big_part_02 (1)_item
+      Dependencies: {}
+    Info_33:
+      Name: arkrtestroom_big_part_02 (2)_item
+      Dependencies: {}
+    Info_34:
+      Name: arkrtestroom_big_part_02 (3)_item
+      Dependencies: {}
+    Info_35:
+      Name: arkrtestroom_big_part_01 (1)_item
+      Dependencies: {}
+    Info_36:
+      Name: arkrtestroom_big_part_02 (4)_item
+      Dependencies: {}
+    Info_37:
+      Name: arkrtestp_floor_normal_02 (1)_item
+      Dependencies: {}
+    Info_38:
+      Name: arkrtestp_floor_normal_02 (2)_item
+      Dependencies: {}
+    Info_39:
+      Name: arkrtestp_floor_normal_02 (3)_item
+      Dependencies: {}
+    Info_40:
+      Name: arkrtestp_floor_normal_02 (4)_item
+      Dependencies: {}
+    Info_41:
+      Name: arkrtestp_floor_normal_02 (5)_item
+      Dependencies: {}
+    Info_42:
+      Name: arkrtestfloor_normal_02_item
+      Dependencies: {}
+    Info_43:
+      Name: arkrtestp_floor_normal_02 (8)_item
+      Dependencies: {}
+    Info_44:
+      Name: arkrtestp_floor_normal_02 (9)_item
+      Dependencies: {}
+    Info_45:
+      Name: arkrtestcube_item
+      Dependencies: {}
+    Info_46:
+      Name: arkrtestp_floor_normal_02_item
+      Dependencies: {}
+    Info_47:
+      Name: arkrtestcorridor_01_item
+      Dependencies: {}
+    Info_48:
+      Name: arkrtestcorridor_02_item
+      Dependencies: {}
+    Info_49:
+      Name: arkrtestcorridor_01 (1)_item
+      Dependencies: {}
+    Info_50:
+      Name: arkrtestcorridor_02 (1)_item
+      Dependencies: {}
+    Info_51:
+      Name: arkrtestreflection probe_item
+      Dependencies: {}
+    Info_52:
+      Name: arkrtestlight_wall_3_item
+      Dependencies: {}
+    Info_53:
+      Name: arkrtestlight_wall_3 (1)_item
+      Dependencies: {}
+    Info_54:
+      Name: arkrtestlight_wall_3 (2)_item
+      Dependencies: {}
+    Info_55:
+      Name: arkrtestlight_wall_3 (3)_item
+      Dependencies: {}
+    Info_56:
+      Name: arkrtestlight_wall_3 (4)_item
+      Dependencies: {}
+    Info_57:
+      Name: arkrtestlight_wall_3 (5)_item
+      Dependencies: {}
+    Info_58:
+      Name: arkrtestlight_wall_3 (6)_item
+      Dependencies: {}
+    Info_59:
+      Name: arkrtestlight_wall_3 (7)_item
+      Dependencies: {}
+    Info_60:
+      Name: arkrtestlight_celing_2_item
+      Dependencies: {}
+    Info_61:
+      Name: arkrtestlight_celing_2 (1)_item
+      Dependencies: {}
+    Info_62:
+      Name: arkrtestlight_celing_2 (2)_item
+      Dependencies: {}
+    Info_63:
+      Name: arkrtestlight_celing_2 (3)_item
+      Dependencies: {}
+    Info_64:
+      Name: arkrtestart_3 1_item
+      Dependencies: {}

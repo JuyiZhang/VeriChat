@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1615507855
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4462edb29df6a7f02494da6319c69ff3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8111b69cb20a82dcdcc3fcdf1cffd7f2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 673f5435ac0e14e268a6cfac5dd81062, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GeneratedScene/Test/sceneHierarchy/Door_Left_01 (1)/Door_Left_01 (1).asset
+- Assets/GeneratedScene/Test/sceneHierarchy/Door_Left_01 (1)/Door_Left_01 (1).prefab
+Dependencies: []

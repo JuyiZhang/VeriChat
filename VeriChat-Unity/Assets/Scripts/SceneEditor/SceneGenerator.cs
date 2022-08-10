@@ -26,6 +26,7 @@ public class SceneGenerator : MonoBehaviour
       CreateFolderIf("Assets","GeneratedScene");
       CreateFolderIf("Assets/GeneratedScene",roomName);
       CreateFolderIf("Assets/GeneratedScene","AssetBundle");
+      CreateFolderIf("Assets/GeneratedScene/AssetBundle",roomName);
       CreateFolderIf($"Assets/GeneratedScene/{roomName}","sceneHierarchy");
       CreateFolderIf($"Assets/GeneratedScene/{roomName}/sceneHierarchy","Items");
       sceneHierarchyFolder = "Assets/GeneratedScene/" + roomName + "/sceneHierarchy";
@@ -41,7 +42,6 @@ public class SceneGenerator : MonoBehaviour
       dfsChild(sceneHierarchy.transform);
       index = 0;
       EditorUtility.ClearProgressBar();
-      dfsItem(sceneHierarchy.transform);
       index = 0;
       currentScene.items = items;
       Debug.Log(currentScene);
@@ -49,7 +49,7 @@ public class SceneGenerator : MonoBehaviour
       var importer = AssetImporter.GetAtPath($"Assets/GeneratedScene/{roomName}/{authorName}{roomName}_def.asset");
       importer.assetBundleName = authorName + roomName;
       if(EditorUtility.DisplayDialog("Scene Successfully Created","You have successfully generated the file required for the scene to work. Would you like to pack them to an Asset Bundle for publish?","Yes","No")){
-        BuildPipeline.BuildAssetBundles("Assets/GeneratedScene/AssetBundle",BuildAssetBundleOptions.None,BuildTarget.StandaloneOSX); // Change this!
+        BuildPipeline.BuildAssetBundles("Assets/GeneratedScene/AssetBundle/"+roomName,BuildAssetBundleOptions.None,BuildTarget.StandaloneOSX); // Change this!
       }
     }
 
@@ -60,40 +60,6 @@ public class SceneGenerator : MonoBehaviour
       }
       foreach (Transform child in parent) {
         dfsCount(child);
-      }
-    }
-
-    void dfsItem(Transform parent) {
-      if (parent.childCount == 0 || parent.gameObject.GetComponent<MeshRenderer>() != null || PrefabUtility.GetCorrespondingObjectFromSource(parent.gameObject)) {
-        //Create Item ItemInstance
-        if (parent.gameObject.GetComponent<ItemObject>() != null) {
-          var newInventory = Instantiate(parent.gameObject.GetComponent<ItemObject>().referenceItem);
-          AssetDatabase.DeleteAsset(sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".asset");
-          AssetDatabase.CreateAsset(newInventory, sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".asset");
-        } else {
-          AssetDatabase.DeleteAsset(sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".asset");
-          InventoryItemData newInventory = ScriptableObject.CreateInstance<InventoryItemData>();
-          newInventory.id = roomName + parent.gameObject.name;
-          newInventory.displayName = parent.gameObject.name;
-          newInventory.prefab = parent.gameObject.name + ".prefab";//sceneAssetBundle.LoadAsset<GameObject>(parent.gameObject.name);
-          AssetDatabase.CreateAsset(newInventory, sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".asset");
-          ItemInstance newItem = ScriptableObject.CreateInstance<ItemInstance>();
-          newItem.item = parent.gameObject.name + ".asset";
-          newItem.position = parent.position;
-          newItem.rotation = parent.rotation;
-          AssetDatabase.CreateAsset(newItem, sceneHierarchyFolder + "/Items/" + parent.gameObject.name + "_item.asset");
-          items.Add(parent.gameObject.name + "_item.asset");
-          //Debug.Log("Asset Created");
-          var importer = AssetImporter.GetAtPath(sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".asset");
-          importer.assetBundleName = authorName + roomName;
-          var importer2 = AssetImporter.GetAtPath(sceneHierarchyFolder + "/Items/" + parent.gameObject.name + "_item.asset");
-          importer2.assetBundleName = authorName + roomName;
-        }
-
-        return;
-      }
-      foreach (Transform child in parent) {
-        dfsItem(child);
       }
     }
 
@@ -109,6 +75,36 @@ public class SceneGenerator : MonoBehaviour
           GameObject inventoryPrefab = PrefabUtility.SaveAsPrefabAsset(parent.gameObject, sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".prefab");
           var importer = AssetImporter.GetAtPath(sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".prefab");
           importer.assetBundleName = authorName + roomName;
+
+          if (parent.gameObject.GetComponent<ItemObject>() != null) {
+            var newInventory = Instantiate(parent.gameObject.GetComponent<ItemObject>().referenceItem);
+            AssetDatabase.DeleteAsset(sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".asset");
+            AssetDatabase.CreateAsset(newInventory, sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".asset");
+          } else {
+            AssetDatabase.DeleteAsset(sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".asset");
+            InventoryItemData newInventory = ScriptableObject.CreateInstance<InventoryItemData>();
+            newInventory.id = roomName + parent.gameObject.name;
+            newInventory.displayName = parent.gameObject.name;
+            newInventory.prefab = parent.gameObject.name + ".prefab";
+            //sceneAssetBundle.LoadAsset<GameObject>(parent.gameObject.name);
+            //byte[] newInventoryPfbTexture = PrefabUtility.GetIconForGameObject(inventoryPrefab).EncodeToPNG();
+            //File.WriteAllBytes(sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".png", newInventoryPfbTexture);
+            AssetDatabase.CreateAsset(newInventory, sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".asset");
+            ItemInstance newItem = ScriptableObject.CreateInstance<ItemInstance>();
+            newItem.item = parent.gameObject.name + ".asset";
+            newItem.position = parent.position;
+            newItem.rotation = parent.rotation;
+            newItem.fromBundle = authorName + roomName;
+            AssetDatabase.CreateAsset(newItem, sceneHierarchyFolder + "/Items/" + parent.gameObject.name + "_item.asset");
+            items.Add(parent.gameObject.name + "_item");
+            //Debug.Log("Asset Created");
+            var importer1 = AssetImporter.GetAtPath(sceneHierarchyFolder + "/" + parent.gameObject.name + "/" + parent.gameObject.name + ".asset");
+            importer1.assetBundleName = authorName + roomName;
+            var importer2 = AssetImporter.GetAtPath(sceneHierarchyFolder + "/Items/" + parent.gameObject.name + "_item.asset");
+            importer2.assetBundleName = authorName + roomName;
+            //var importer3 = AssetImporter.GetAtPath(sceneHierarchyFolder + "/Items/" + parent.gameObject.name + ".png");
+            //importer3.assetBundleName = authorName + roomName;
+          }
         }
         return;
       }

@@ -11,7 +11,7 @@ The software is developed under unity 2021.3.0f1. To achieve better quality, URP
 #### Fundamental
 - [ ] Multiplayer (Local host, Remote host)
 - [ ] Export Avatar from Unity
-- [ ] Export Room from Unity
+- [x] Export Room from Unity
 - [ ] Room customization interface
 
 #### Advanced Function
