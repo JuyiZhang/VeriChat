@@ -9,10 +9,10 @@ The software is developed under unity 2021.3.0f1. To achieve better quality, URP
 ## Roadmap
 
 #### Fundamental
-- [ ] Multiplayer (Local host, Remote host)
+- [x] Multiplayer using mirror (Local host, Remote host)
 - [ ] Export Avatar from Unity
 - [x] Export Room from Unity
-- [ ] Room customization interface
+- [x] Room customization interface
 
 #### Advanced Function
 - [ ] Spatial audio
